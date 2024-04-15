@@ -53,7 +53,8 @@ type Transaction = {
             setTransactions([{description, value, type:"Saída"}, ...transactions ])
             setDescription("")
             const newTotal = total - value
-            setValueOutput(newTotal)
+            const newValueOutput = valueOutput + value
+            setValueOutput(newValueOutput)
             setTotal(newTotal)
             console.log(newTotal)
             setValue(0)
