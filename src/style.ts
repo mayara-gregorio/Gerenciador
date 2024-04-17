@@ -57,105 +57,91 @@ export const Button = styled.button`
    `}
 `
 export const Header = styled.header`
-    ${({theme}) => css`
-        display: flex;
+    ${({theme})=> css`
+        display: ${theme.actions.display};
+        flex-direction: ${theme.actions.directionRow};
+        justify-content: ${theme.actions.justfyBetween};
         margin: 40px;
-        width: 100%;
+        align-items: ${theme.actions.alignCenter};
+        width: ${theme.dimension.widht};
         border: 2px solid ${theme.colors.line};
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
     `}
 `
-
 export const Main = styled.main`
     ${({theme}) => css`
         display: ${theme.actions.display};
-
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 20px;
+        flex-direction: ${theme.actions.directionRow};
+        justify-content: ${theme.actions.justfyBetween};
+        gap: ${theme.spaces.gap2};  
     `}
 `
-
 export const ButtonDiv = styled.div`
     ${({theme}) => css`
         display: ${theme.actions.display};
-
-        flex-direction: row;
-        align-items: center;
-        gap: 10px;
-        padding: 3px 20px;
+        flex-direction: ${theme.actions.directionRow};
+        align-items: ${theme.actions.alignCenter};
+        gap: ${theme.spaces.gap1};  
         background-color: ${theme.colors.background_button};
         color: ${theme.colors.text_btn_text_1};
-        border-radius: 8px;
+        border-radius: ${theme.border.radius1};
+        padding: ${theme.border.radius3} ${theme.spaces.padding};
     `}
 `
 
 export const ButtonDivInLeft = styled.div`
     ${({theme}) => css`
         display: ${theme.actions.display};
-
-        flex-direction: column;
+        flex-direction: ${theme.actions.directionCol};
     `}
 `
-
-
 export const ButtonDivInHight = styled.div`
     ${({theme}) => css`
         display: ${theme.actions.display};
-
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        flex-direction: ${theme.actions.directionCol};
+        justify-content: ${theme.actions.justfyCen};
+        align-items: ${theme.actions.alignCenter};
     `}
 `
 export const ContainerButton = styled.div`
     ${({theme}) => css`
         display: ${theme.actions.display};
+        flex-direction: ${theme.actions.directionRow};
+        gap: ${theme.spaces.gap2};  
 
-        flex-direction: row;
-        gap: 20px;
     `}
 `
-
 export const ContainerPasts = styled.div`
     ${({theme}) => css`
         display: ${theme.actions.display};
-
-            flex-direction: column;
-            gap: 20px;
-            justify-content: center;
-            padding: 20px;
-            width: 80%;
-        `}
+        flex-direction: ${theme.actions.directionCol};
+        gap: ${theme.spaces.gap2};  
+        justify-content: ${theme.actions.justfyCen};
+        padding: ${theme.spaces.padding};
+        width: ${theme.dimension.widht2} ;
+    `}
 `
 export const ContainerPast = styled.div`
     ${({theme}) => css`
         display: ${theme.actions.display};
-
-            flex-direction: row;
-            gap: 20px;
-            padding: 20px;
-            border-radius: 9px;
-            justify-content: space-around;
-            background-color: ${theme.colors.line};
-        `}
+        flex-direction: ${theme.actions.directionRow};
+        gap: ${theme.spaces.gap2};  
+        padding: ${theme.spaces.padding};
+        border-radius: ${theme.border.radius4};
+        justify-content: ${theme.actions.justfyAround};
+        background-color: ${theme.colors.line};
+    `}
 `
 export const ContainerPastLeft = styled.div`
     ${({theme}) => css`
     '   display: ${theme.actions.display};
-
-            flex-direction: row;
-            gap: 20px;
-        `}
+        flex-direction: ${theme.actions.directionRow};
+        gap: ${theme.spaces.gap2}
+    `}
 `
 export const ContainerPastHight = styled.div`
     ${({theme}) => css`
         display: ${theme.actions.display};
-
-            flex-direction: row;
-            gap: 10px;
-        `}
+        flex-direction: ${theme.actions.directionRow};
+        gap: ${theme.spaces.gap1}
+    `}
 `
-

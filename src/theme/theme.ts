@@ -11,6 +11,8 @@ export const theme = {
         padding: "20px",
         padding1: "0",
         padding2: "10px",
+        padding3: "3px",
+        margin1: "40px",
         margin2: "20px",
         gap1: "10px",
         gap2: "20px",
@@ -21,6 +23,7 @@ export const theme = {
         height: "40px",
         widht: "100%",
         widht1: "50%",
+        widht2: "80%",
     },
 
     font:{
@@ -29,15 +32,19 @@ export const theme = {
         
     },
     border:{
+        radius: "2px",
         radius1: "8px",
         radius2: "10px",
-        radius3: "2px",
+        radius3: "3px",
+        radius4: "9px",
         none: "none"
     },
 
     actions:{
         display: "flex",
         justfyCen: "center",
+        justfyBetween: "space-between",
+        justfyAround: "space-around",
         justfyTop: "top",
         directionCol: "column",
         directionRow: "row",
