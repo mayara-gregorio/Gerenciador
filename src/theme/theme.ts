@@ -9,7 +9,8 @@ export const theme = {
     },
     spaces:{
         padding: "20px",
-        margin1: "0",
+        padding1: "0",
+        padding2: "10px",
         margin2: "20px",
         gap1: "10px",
         gap2: "20px",
@@ -17,8 +18,9 @@ export const theme = {
     },
 
     dimension:{
-        height: "100vh",
-        widht: "150px"
+        height: "40px",
+        widht: "100%",
+        widht1: "50%",
     },
 
     font:{
@@ -29,7 +31,8 @@ export const theme = {
     border:{
         radius1: "8px",
         radius2: "10px",
-        radius3: "150px"
+        radius3: "2px",
+        none: "none"
     },
 
     actions:{
@@ -41,5 +44,5 @@ export const theme = {
         alignCenter: "center",
         alignEnd: "end",
         alignLeft: "left",
-    }
+    },
 }

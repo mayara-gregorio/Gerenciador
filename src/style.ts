@@ -1,30 +1,39 @@
 import styled, {css} from "styled-components"
 
 export const Container = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
+    ${({theme})=> css`
+        display: ${theme.actions.display};
+        flex-direction: ${theme.actions.directionCol};
+        justify-content: ${theme.actions.justfyCen};
+        align-items: ${theme.actions.alignCenter};
+        gap: ${theme.spaces.gap3};  
+    `}
 `
 export const ContainerInps = styled.div`
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 100%;
+    ${({theme})=> css`
+        display: ${theme.actions.display};
+        flex-direction: ${theme.actions.directionCol};
+        justify-content: ${theme.actions.justfyCen};
+        gap: ${theme.spaces.gap2};  
+        width: ${theme.dimension.widht};
+    `}
 `
 export const ContainerInp = styled.div`
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
+    ${({theme})=> css`
+        display: ${theme.actions.display};
+        flex-direction: ${theme.actions.directionCol};
+        gap: ${theme.spaces.gap1};  
+        width: ${theme.dimension.widht};
+        align-items: ${theme.actions.alignCenter};
+
+    `}
 `
 export const Input = styled.input`
     ${({theme})=> css`
-        border: none;
-        border-radius: 2px;
-        height: 40px;
-        width: 50%;
+        border: ${theme.border.none};
+        border-radius: ${theme.border.radius3};
+        height: ${theme.dimension.height};
+        width: ${theme.dimension.widht1};
     `}
 `
 export const Title = styled.h1`
@@ -37,15 +46,14 @@ export const TextInput = styled.p`
         color: ${theme.colors.text_btn_text_1}; 
     `}
 `
-
 export const Button = styled.button`
     ${({theme}) => css`
         background-color: ${theme.colors.background_button};
-        height: 40px;
-        border: none;
-        padding: 0 10px;
+        height: ${theme.dimension.height};
+        border: ${theme.border.none};
+        padding: ${theme.spaces.padding1} ${theme.spaces.padding2};
         color: ${theme.colors.text_btn_text_1};
-        border-radius: 8px;
+        border-radius: ${theme.border.radius1};
    `}
 `
 export const Header = styled.header`
@@ -62,7 +70,8 @@ export const Header = styled.header`
 
 export const Main = styled.main`
     ${({theme}) => css`
-        display: flex;
+        display: ${theme.actions.display};
+
         flex-direction: row;
         justify-content: space-between;
         gap: 20px;
@@ -71,7 +80,8 @@ export const Main = styled.main`
 
 export const ButtonDiv = styled.div`
     ${({theme}) => css`
-        display: flex;
+        display: ${theme.actions.display};
+
         flex-direction: row;
         align-items: center;
         gap: 10px;
@@ -84,7 +94,8 @@ export const ButtonDiv = styled.div`
 
 export const ButtonDivInLeft = styled.div`
     ${({theme}) => css`
-        display: flex;
+        display: ${theme.actions.display};
+
         flex-direction: column;
     `}
 `
@@ -92,7 +103,8 @@ export const ButtonDivInLeft = styled.div`
 
 export const ButtonDivInHight = styled.div`
     ${({theme}) => css`
-        display: flex;
+        display: ${theme.actions.display};
+
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -100,7 +112,8 @@ export const ButtonDivInHight = styled.div`
 `
 export const ContainerButton = styled.div`
     ${({theme}) => css`
-        display: flex;
+        display: ${theme.actions.display};
+
         flex-direction: row;
         gap: 20px;
     `}
@@ -108,7 +121,8 @@ export const ContainerButton = styled.div`
 
 export const ContainerPasts = styled.div`
     ${({theme}) => css`
-            display: flex;
+        display: ${theme.actions.display};
+
             flex-direction: column;
             gap: 20px;
             justify-content: center;
@@ -118,7 +132,8 @@ export const ContainerPasts = styled.div`
 `
 export const ContainerPast = styled.div`
     ${({theme}) => css`
-            display: flex;
+        display: ${theme.actions.display};
+
             flex-direction: row;
             gap: 20px;
             padding: 20px;
@@ -129,14 +144,16 @@ export const ContainerPast = styled.div`
 `
 export const ContainerPastLeft = styled.div`
     ${({theme}) => css`
-            display: flex;
+    '   display: ${theme.actions.display};
+
             flex-direction: row;
             gap: 20px;
         `}
 `
 export const ContainerPastHight = styled.div`
     ${({theme}) => css`
-            display: flex;
+        display: ${theme.actions.display};
+
             flex-direction: row;
             gap: 10px;
         `}
