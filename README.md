@@ -35,7 +35,7 @@ Além disto é bom ter um editor para trabalhar com o código como por exemplo [
 
 # Npm instalado
 
-# Clone o repositório: git clone <https://github.com/Toteck/tarefasIFMA.git>
+# Clone o repositório: git clone <https://github.com/mayara-gregorio/Gerenciador.git>
 
 # Instale as dependências:
 $ npm install
@@ -44,7 +44,6 @@ $ npm install
 $ npm run dev
 
 ```
-
 
 ## 🛠 Tecnologias
 
