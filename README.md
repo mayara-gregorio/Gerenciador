@@ -1,7 +1,7 @@
 <h1 align="center">Gerenciador de Finanças Pessoais</h1>
 
 ### Descrição do Projeto
-<p> Um sistema simples de gerenciamento de finanças pessoais utilizando o framework React, com esta aplicação, os usuários podem facilmente registrar suas transações financeiras e visualizar um historico abrangente de suas finanças..</p>
+<p> Um sistema simples de gerenciamento de finanças pessoais utilizando o framework React, com esta aplicação, os usuários podem facilmente registrar suas transações financeiras e visualizar um historico de suas finanças..</p>
 
 ## Tabela de conteúdos
 
@@ -69,6 +69,6 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
   <tr>
     <td align="center"><a href="https://github.com/mayara-gregorio"><img src="https://avatars.githubusercontent.com/u/130478070?v=4" width="80px;" alt=""/><br /><sub><b>Mayara Gregório</b></sub></a><br /><a href="https://github.com/mayara-gregorio"></a></td>
     <td align="center"><a href="https://github.com/Gabrielly1704"><img src="https://avatars.githubusercontent.com/u/153733849?v=4" width="80px;" alt=""/><br /><sub><b>Mônica Gabrielly</b></sub></a><br /><a href="https://github.com/Gabrielly1704"></a></td>
-    <td align="center"><a href="https://github.com/Hadna06"><img src="https://avatars.githubusercontent.com/u/135168103?v=4" width="80px;" alt=""/><br /><sub><b>Josué Hudson</b></sub></a><br /><a href="https://github.com/Hadna06"></a></td>
+    <td align="center"><a href=""><img src="" width="80px;" alt=""/><br /><sub><b>Josué Hudson</b></sub></a><br /><a href="https://github.com/Hadna06"></a></td>
 </tr>
 </table>
