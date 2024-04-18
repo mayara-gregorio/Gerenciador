@@ -37,17 +37,12 @@ Além disto é bom ter um editor para trabalhar com o código como por exemplo [
 
 # Clone o repositório: git clone <https://github.com/Toteck/tarefasIFMA.git>
 
-# Instale as dependências
-
-# Crie um arquivo .env no seu projeto e configure as variáveis
-
-# Execute uma migration para criar suas tabelas de banco de dados:
-$ node ace migration:run
+# Instale as dependências:
+$ npm install
 
 # Inicie seu servidor:
-$ node ace serve --watch
+$ npm run dev
 
-# O servidor inciará na porta:3333 - acesse http://localhost:3333
 ```
 
 
